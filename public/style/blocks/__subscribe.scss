@@ -1,0 +1,156 @@
+@import "../__variables.scss";
+@import "../__mixins.scss";
+
+.subscribe {
+    background-color: #eeeeee
+}
+
+.subscribe-wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/subscribe_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe-left {
+    display: flex;
+    padding: 123px 0 156px 230px;
+    flex-basis: 50%;
+    margin-right: 100px;
+}
+
+.subscribe-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+    padding: 148px 280px 0 0;
+}
+
+.subscribe-portrait {
+    margin-right: 28px;
+}
+
+.subscribe-feedback {
+    width: 385px;
+}
+
+.feedback-content {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.feedback-name {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: $main-pink-color;
+    margin-top: 20px;
+}
+
+.feedback-place {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.feedback-pagination {
+    display: flex;
+    margin-top: 40px;
+}
+
+.feedback-pagination-link {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+    margin-right: 13px;
+}
+
+.feedback-pagination-link-active {
+    background-color: $main-pink-color;
+}
+
+.feedback-pagination-link:hover {
+    background-color: $main-pink-color;
+}
+
+.subscribe-text {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.subscribe-text-2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: start;
+    margin-top: 35px;
+}
+
+.email-field {
+    width: 300px;
+    height: 46px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 23px 0px 0px 23px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    padding: 0 15px 0 35px;
+}
+
+.email-field::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.email-field:focus {
+    outline: none;
+    background-color: #cdcdcc;
+}
+
+.email-form-btn {
+    width: 104px;
+    height: 46px;
+    background-color: $main-pink-color;
+    border: none;
+    border-radius: 0px 23px 23px 0px;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+        transform: translateX(10px);
+    }
+}
+
+.email-form-btn:focus {
+    outline: none;
+    background-color: #ffffff;
+    ;
+    color: $main-pink-color;
+}
+

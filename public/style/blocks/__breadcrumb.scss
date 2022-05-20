@@ -1,0 +1,45 @@
+@import "../__variables.scss";
+@import "../__mixins.scss";
+
+.breadcrumb {
+    background-color: #f8f3f4;
+    padding: 65px 0;
+    margin-bottom: 60px;
+}
+
+.breadcrumb-wrapper {
+    @include width-wrapper;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breadcrumb-heading {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $main-pink-color;
+}
+
+.breadcrumb-list {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #636363;
+}
+
+.breadcrumb-link-active {
+    text-decoration: none;
+    font-weight: 700;
+    color: $main-pink-color;
+}
+
+.breadcrumb-link:hover {
+    font-weight: 400;
+    color: $main-black-color;
+}

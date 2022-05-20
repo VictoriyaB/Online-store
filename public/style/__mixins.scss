@@ -1,0 +1,14 @@
+@mixin width-wrapper {
+    width: $basis-width;
+    margin: 0 auto;
+}
+
+@mixin product-width {
+    width: 261px;
+    height: 280px;
+}
+
+@mixin transform-element {
+    transform: scale(1.1);
+    transition: $transition-time;
+}

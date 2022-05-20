@@ -1,0 +1,120 @@
+@import "../__variables.scss";
+@import "../__mixins.scss";
+
+
+.checkout-wrapper {
+    @include width-wrapper;
+    margin-top: 90px;
+}
+
+.check-info {
+    font-size: 16px;
+    line-height: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $main-black-color;
+    cursor: pointer;
+}
+
+.check-info-wrapper {
+    display: flex;
+}
+
+.checkout-details {
+    border-bottom: 1px solid #ececec;
+}
+
+.check-info-left,
+.check-info-right {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.check-info:focus {
+    outline: none;
+}
+
+.checkInfo-block {
+    margin-top: 20px;
+}
+
+.checkInfo-heading {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.checkInfo-text {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+}
+
+.checkInfo-link {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+}
+
+label {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-black-color;
+}
+
+.label-radio {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.checkInfo-button {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.checkInfo-button:hover {
+    background-color: #fff;
+    border: 1px solid $main-pink-color;
+    color: $main-pink-color;
+}
+
+.checkInfo-email {
+    width: 390px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+   }
+
+.required-fileds {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ff0d0d;
+    margin-left: 5px;
+}
+
+.forgot-password {
+    font-size: 14px;
+     font-weight: 400;
+    color: $main-black-color;
+    padding: 0 20px;
+    text-decoration: none;
+}
