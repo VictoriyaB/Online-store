@@ -1,0 +1,27 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "product_name": "сoral blouse",
+            "price": 60,
+            "img": "img/imgProducts/124.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 125,
+            "product_name": "light down jacket",
+            "price": 135,
+            "img": "img/imgProducts/125.png"
+        },
+        {
+            "quantity": 1,
+            "id_product": 126,
+            "product_name": "floral blouse",
+            "price": 55,
+            "img": "img/imgProducts/126.png"
+        }
+    ]
+}

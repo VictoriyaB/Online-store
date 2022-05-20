@@ -1,0 +1,42 @@
+[
+  {
+    "id_product": 123,
+    "product_name": "Mango People T-shirt",
+    "price": 52
+  },
+  {
+    "id_product": 124,
+    "product_name": "сoral blouse",
+    "price": 60
+  },
+  {
+    "id_product": 125,
+    "product_name": "light down jacket",
+    "price": 135
+  },
+  {
+    "id_product": 126,
+    "product_name": "floral blouse",
+    "price": 55
+  },
+  {
+    "id_product": 127,
+    "product_name": "striped blouse",
+    "price": 55
+  },
+  {
+    "id_product": 128,
+    "product_name": "linen jacket",
+    "price": 85
+  },
+  {
+    "id_product": 129,
+    "product_name": "cargo pants",
+    "price": 70
+  },
+  {
+    "id_product": 130,
+    "product_name": "men's pullover",
+    "price": 80
+  }
+]
